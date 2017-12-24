@@ -37,7 +37,7 @@
                 Set(Zero, qubits[0]);
             }
             // Return number of times we saw a |0> and number of times we saw a |1>
-            return (count-numOnes, numOnes);
+            return (count - numOnes, numOnes);
         }
 	}
 }
